@@ -1,0 +1,22 @@
+{
+  "name": "ecourses",
+  "version": "1.0.0",
+  "description": "He thong luyen tap, thi trac nghiem",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "H2CTeam",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.14",
+    "mongoose-auto-increment": "^5.0.1"
+  },
+  "devDependencies": {}
+}
