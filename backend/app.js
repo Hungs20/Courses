@@ -40,11 +40,11 @@ app.get("/", (req, res) => {
 });
 
 // routes
-require("./app/routes/auth.routes")(app);
-require("./app/routes/user.routes")(app);
+require("./app/routes/authRoutes/auth.routes")(app);
+require("./app/routes/userRoutes/user.routes")(app);
 
 // set port, listen for requests
-const PORT = process.env.PORT || 8088;
+const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}.`);
 });
